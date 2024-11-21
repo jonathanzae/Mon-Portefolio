@@ -1,0 +1,33 @@
+body {
+    background-image:url(../img/bk1.jpg);
+    background-size:100%;
+    margin: 0;
+}
+
+.main {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.social_networks_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.a_social_networks {
+    color:black;
+    font-size:40px;
+    text-decoration:none; 
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.img_social_networks {
+    margin:10px;
+    width: 75px;
+    height: 75px;
+}

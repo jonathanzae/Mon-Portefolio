@@ -1,0 +1,34 @@
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    background-color:rgb(140, 139, 139);
+    height:48px;
+    width:100%;
+    position:sticky;
+}
+
+.ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:100%;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul li:hover a {
+    color:rgb(165, 30, 30);
+    transition:0.5s all;
+    font-size: 35px;
+}

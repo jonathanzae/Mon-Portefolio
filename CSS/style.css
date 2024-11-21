@@ -1,0 +1,35 @@
+body {
+    background-image:url(../img/bk2.jpg);
+    background-size:100%;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+#img_profil {
+    display:flex;
+    width: 210px;
+    height: 300px;
+    margin: 100px;
+    border: solid black 3px;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+#who {
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+}
+
+#paragraph {
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+}

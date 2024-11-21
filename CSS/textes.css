@@ -1,0 +1,28 @@
+body {
+    background-image:url(../img/bk4.jpg);
+    background-size:200%;
+    margin: 0;
+}
+
+.pictures_text_content {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link_dead {
+    width: calc((100% - 40px) / 4);
+}
+
+.img_text_page {
+    width: 250px;
+    height: 250px;
+    border: solid white 2px;
+}
+
+.img_text_page:hover {
+    border: solid black 2px;
+    transition: 0.5s;
+}
